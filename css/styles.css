@@ -1,0 +1,267 @@
+:root {
+  --brand-color-background_dark: #2f303a;
+  --brand-color-background-light-grey: #e5e5e5;
+  --brand-color-background-medium-grey: #f5f4fa;
+  --brand-color-blue: #2196f3;
+  --brand-color-tekst: #757575;
+  --brand-color-header: #212121;
+  --brand-font-primary: "Roboto", sans-serif;
+  --brand-font-secondary: "Raleway", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 42px;
+}
+address {
+  font-style: normal;
+}
+body {
+  font-family: var(--brand-font-primary);
+  color: var(--brand-color-tekst);
+  letter-spacing: 0.03em;
+}
+.section {
+  padding: 94px 0;
+}
+.section-lorem {
+  padding-bottom: 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.button {
+  background-color: var(--brand-color-blue);
+  font-family: var(--brand-font-primary);
+  font-weight: 700;
+  line-height: 2.6;
+  color: #fff;
+  margin-top: 30px;
+}
+.button-portfolio {
+  background-color: var(--brand-color-background-light-grey);
+  font-family: var(--brand-font-primary);
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--brand-color-header);
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--brand-color-blue);
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.logo,
+.logo-footer {
+  color: #000;
+  font-family: var(--brand-font-secondary);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo {
+  color: #000;
+}
+.logo-footer {
+  color: #fff;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.logo span,
+.logo-footer span {
+  color: var(--brand-color-blue);
+}
+.h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.h2 {
+  color: var(--brand-color-header);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.h3 {
+  color: var(--brand-color-header);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.second-h3 {
+  color: var(--brand-color-header);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 30px 0 10px;
+}
+.text {
+  color: var(--brand-color-tekst);
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.second-text {
+  color: var(--brand-color-tekst);
+  line-height: 19px;
+  padding-bottom: 30px;
+}
+.link-menu {
+  color: var(--brand-color-tekst);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.link-menu:hover {
+  color: var(--brand-color-blue);
+}
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+}
+.address {
+  font-family: var(--brand-font-primary);
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+.footer {
+  background-color: var(--brand-color-background_dark);
+}
+.slogan {
+  background-image: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(10, 10, 13, 0.4)
+    ),
+    url(../images/tlo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team {
+  background-color: var(--brand-color-background-medium-grey);
+}
+.team li {
+  background-color: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  column-gap: 93px;
+}
+.contact {
+  display: flex;
+
+  column-gap: 46px;
+}
+.nav-links {
+  display: flex;
+
+  column-gap: 50px;
+}
+.slogan-tekst {
+  text-align: center;
+}
+.slogan {
+  padding: 200px 0;
+}
+.lorem,
+.galery,
+.team-galery {
+  display: flex;
+  column-gap: 30px;
+  justify-content: space-between;
+}
+.team-galery li {
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.footer {
+  padding: 60px 0;
+}
+.footer-display li {
+  padding-bottom: 9px;
+}
+.little-menu {
+  display: flex;
+  /* margin-top: 94px; */
+  column-gap: 8px;
+  justify-content: center;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  column-gap: 30px;
+  row-gap: 30px;
+  /* margin-bottom: 94px; */
+}
+.portfolio li {
+  text-align: left;
+  border: 1px solid #eeeeee;
+}
+.portfolio li:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.portfolio-text {
+  color: var(--brand-color-tekst);
+  line-height: 19px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+.portfolio-h3 {
+  color: var(--brand-color-header);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+/* .clients-icons {
+  width: 170px;
+  height: 92px;
+} */
+.svg-lorem {
+  fill: #000;
+}
+.footer-flex {
+  display: flex;
+}
